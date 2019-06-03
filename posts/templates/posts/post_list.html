@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Список публикаций</title>
+<style>
+	body{
+		margin:1em auto;
+		max-width:40em;
+		padding:0 .62em;
+		font:1.2em/1.62 serif;
+        text-align: center;
+	}
+	h1,h2,h3 {
+		line-height:1.2;
+	}
+	@media print{
+		body{
+			max-width:none
+		}
+	}
+</style>
+<article>
+	<header>
+		<h1>Список всех публикаций.</h1>
+		<a class="nav-link" href="/api/posts/">API - вывод всех публикаций</a><br>
+        <a class="nav-link" href="/api/posts/category">API - вывод всех категорий</a>
+	</header>
+    {% for pub in posts %}
+        <h2>{{ pub.title }}</h2>
+        <p>
+            Публикация {{ pub.author }} от {{ pub.when_published }}
+        </p>
+        {{ pub.body|truncatewords:10|linebreaks }}
+        {{ pub.category }}
+    {% empty %}
+        <h2>Публикаций нет</h2>
+        <p>Чтобы добавить что-то в список, зайдите в админку и добавьте их оттуда.</p>
+    {% endfor %}
+     <ul>
+			<li><a class="nav-link" href="/api/posts/1">Первый блог</a>   <a class="nav-link" href="/api/posts/category/1">   & Категория</a></li>
+			<li><a class="nav-link" href="/api/posts/2">Второй блог</a>   <a class="nav-link" href="/api/posts/category/2">   & Категория</a></li>
+			<li><a class="nav-link" href="/api/posts/3">Третий блог</a>   <a class="nav-link" href="/api/posts/category/1">   & Категория</a></li>
+		    </ul>
+</article>
