@@ -5,4 +5,4 @@
 *.sqlite3
 
 #CRLF
-*.idea/workspace.xml
+*.idea/workspace.xmlgit add .
