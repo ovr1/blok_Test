@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6c1995f-6a4e-4aa8-aafe-15749be512bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="119">
+              <caret line="7" column="25" selection-start-line="6" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -79,8 +78,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="990" />
-    <option name="y" value="2" />
+    <option name="x" value="960" />
+    <option name="y" value="4" />
     <option name="width" value="914" />
     <option name="height" value="1020" />
   </component>
@@ -168,7 +167,8 @@
       <updated>1559509550216</updated>
       <workItem from="1559509551858" duration="6381000" />
       <workItem from="1559548442564" duration="9043000" />
-      <workItem from="1559595592713" duration="598000" />
+      <workItem from="1559595592713" duration="1367000" />
+      <workItem from="1559636580459" duration="7203000" />
     </task>
     <task id="LOCAL-00001" summary="Finish">
       <created>1559581563324</created>
@@ -184,17 +184,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559583389953</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finish">
+      <created>1559596332563</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559596332563</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19234000" />
+    <option name="totallyTimeSpent" value="27206000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="990" y="2" width="914" height="1020" extended-state="0" />
+    <frame x="34" y="5" width="914" height="1020" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24473068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25058547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -465,8 +472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="6" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
